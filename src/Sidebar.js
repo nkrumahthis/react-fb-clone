@@ -2,14 +2,20 @@ import React from 'react'
 import './Sidebar.css'
 import './SidebarRow'
 import SidebarRow from './SidebarRow'
+
 import { Chat, EmojiFlags, ExpandMoreOutlined, LocalHospital, People, Storefront, VideoLibrary } from '@material-ui/icons';
 
+import { useStateValue } from "./StateProvider";
+
 function Sidebar() {
+
+    const [{ user }, dispatch ] = useStateValue();
+
     return ( 
         <div className="sidebar">
             { <SidebarRow 
-                src='https://avatars2.githubusercontent.com/u/42615665?s=60&v=4' 
-                title='nkrumahthis'/> }
+                src={user.photoURL}
+                title={user.displayName}/> }
 
             <SidebarRow 
                 Icon={LocalHospital}

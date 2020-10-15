@@ -4,6 +4,8 @@ import { InsertEmoticon, PhotoLibrary, Videocam } from '@material-ui/icons';
 import React, { useState } from 'react'
 import "./MessageSender.css"
 
+import { useStateValue } from "./StateProvider";
+
 function MessageSender() {
 
     const [input, setInput] = useState("");
@@ -16,10 +18,13 @@ function MessageSender() {
          setInput("");
          setImageUrl("");
     }
+
+    const [{user}, dispatch] = useStateValue();
+
     return (
         <div className="messageSender">
             <div className="messageSender__top">
-                <Avatar/>
+                <Avatar src={ user.photoURL }/>
                 <form action="">
                     <input value={input} onChange = {(e) => setInput(e.target.value)} type="text" placeholder="What's on your mind?"/>
                     <input value={imageUrl} onChange = {(e) => setImageUrl(e.target.value)} type="text" placeholder="image URL (Optional)"/>
