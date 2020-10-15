@@ -17,7 +17,8 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/61/61045.svg" alt=""/>
+                {/* <img src="https://www.flaticon.com/svg/static/icons/svg/61/61045.svg" alt=""/> */}
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/100px-Facebook_f_logo_%282019%29.svg.png" alt=""/>
                 <div className="header__input">
                     <SearchIcon/>
                     <input type="text" name="" id="" placeholder="search fb-clone"/>

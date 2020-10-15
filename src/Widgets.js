@@ -6,7 +6,6 @@ function Widgets() {
         <div className="widgets">
             <iframe 
                 src="https://github.com/nkrumahthis/" 
-                frameborder="0"
                 width="340"
                 height="100%"
                 scrolling="no"
@@ -14,8 +13,8 @@ function Widgets() {
                 allowTransparency="true"
                 allow="encrypted-media"
                 style={{border: "none", overflow: "hidden"}}
-
-            >
+                title="fb-clone-iframe"
+            >  
 
             </iframe>
             
