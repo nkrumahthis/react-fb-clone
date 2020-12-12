@@ -28,3 +28,7 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Tutorial Link
+
+This project was built following [this tutorial](https://www.youtube.com/watch?v=B-kxUMHBxNo&ab_channel=CleverProgrammer) on youtube from [Clever Khazi's channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
