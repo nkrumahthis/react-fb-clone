@@ -24,3 +24,10 @@ No information of yours is stored, other than your post.
 - cd into the newly cloned directory
 - run `npm start` in your terminal
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## To Do
+
+- There's so much to be done.
+
+Check out [my website](https://nkrumahsarpong.com) for more info
+Contact me on [nkrumahthis@gmail.com](mailto:nkrumahthis@gmail.com)
