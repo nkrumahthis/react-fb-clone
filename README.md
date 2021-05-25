@@ -1,5 +1,7 @@
 # Facebook Clone In React
 
+[App here](https://fb-clone-bc666.firebaseapp.com).
+
 This project has a frontend in React and a backend in [Firebase](https://firebase.com).
 
 ## Used:
@@ -27,7 +29,10 @@ No information of yours is stored, other than your post.
 
 ## To Do
 
-- There's so much to be done.
+- Add like system
+- make image upload a file upload button
+- implement image upload file drag and drop to upload
+- Implement reel properly
 
 Check out [my website](https://nkrumahsarpong.com) for more info
 Contact me on [nkrumahthis@gmail.com](mailto:nkrumahthis@gmail.com)
